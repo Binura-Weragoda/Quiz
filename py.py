@@ -6,7 +6,7 @@ total_q = 10
 
 
 if ans.lower() == 'yes' :
-    ans = input('1. What is the most venomus Snake in the world ?')
+    ans = input('1. What is the most venomous Snake in the world ?')
     if ans.lower() == 'inland taipan' :
         score += 10
         print('Correct')
@@ -14,7 +14,7 @@ if ans.lower() == 'yes' :
         print('Incorrect')
 
 
-    ans = input('2. What is the most biggest animal is the world?')
+    ans = input('2. What is the most biggest animal in the world?')
     if ans.lower() == 'blue whale' or ans.lower() == 'antarctic blue whale' :
         score += 10
         print('Correct')
@@ -50,7 +50,7 @@ if ans.lower() == 'yes' :
 
 
 
-    ans = input('6. Who is the present ceo of apple company ?')
+    ans = input('6. Who is the present CEO of Apple company ?')
     if ans.lower() ==  'tim cook' :
         score += 10
         print('Correct')
@@ -59,7 +59,7 @@ if ans.lower() == 'yes' :
 
 
 
-    ans = input('7. Who is the present ceo of google ?')
+    ans = input('7. Who is the present CEO of google ?')
     if ans.lower() ==  'sundar pichai' :
         score += 10
         print('Correct')
@@ -94,7 +94,7 @@ if ans.lower() == 'yes' :
         print('Incorrect')
 
 
-print('You had finished your exam . Let us see what has been happened ', score/total_q, "quections correct.")
+print('You had finished your exam . Let us see what has been happened ', score/total_q, "questions correct.")
 mark = (score/total_q) *10
 
 print("Mark: ", mark)
